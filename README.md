@@ -1,7 +1,8 @@
 # C++ printable enumerator template
 C++17 enum printable template, one header source
 
-````
+```cpp
+
  class eTest
  {
     public:
@@ -32,14 +33,15 @@ C++17 enum printable template, one header source
      // Get string by enum value to std::ostream:
      std::cout << EnumeratorName::ENUM_TAG_DONE;
 
-````
+```
 
 ## Build example:
 
-````
+```sh
+
   g++ -Wall -std=c++17 -D_BUILD_ENUM_PRINTABLE=1 example.cpp -o example.exe
 
-````
+```
 
 
 ## License
