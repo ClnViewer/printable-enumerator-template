@@ -110,7 +110,7 @@
             if (val < 0)                                                                                      \
                 return l_ErrorGetEnumString_;                                                                 \
                                                                                                               \
-        if (val >= static_cast<T>(std::size(N##EnumString)))                                                  \
+        if (val >= static_cast<T>(ELE_(N##EnumString) - 1))                                                   \
             return l_ErrorGetEnumString_;                                                                     \
         return N##EnumString[val];                                                                            \
     }                                                                                                         \
