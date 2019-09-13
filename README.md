@@ -34,3 +34,15 @@ C++17 enum printable template, one header source
 
 ````
 
+## Build example:
+
+````
+  g++ -Wall -std=c++17 -D_BUILD_ENUM_PRINTABLE=1 example.cpp -o example.exe
+
+````
+
+
+## License
+
+ _MIT_
+
