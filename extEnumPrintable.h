@@ -7,7 +7,7 @@
     C++17 Enumerator printable, header only
 
     Copyright (c) 2016-2019 PS
-    GitHub: https://github.com/ClnViewer/Enum-Printable
+    GitHub: https://github.com/ClnViewer/printable-enumerator-template
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

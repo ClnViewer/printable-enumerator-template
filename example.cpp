@@ -1,9 +1,15 @@
 
+/// C++17 Enumerator printable, sample example
+/// GitHub: https://github.com/ClnViewer/printable-enumerator-template
+/// Build:  g++ -Wall -std=c++17 -D_BUILD_ENUM_PRINTABLE=1 example.cpp -o example.exe
+
 #include <string>
 #include <iostream>
 
-/// C++17 Enumerator printable, header only
-#define _BUILD_ENUM_PRINTABLE 1
+#if !defined(_BUILD_ENUM_PRINTABLE)
+#  define _BUILD_ENUM_PRINTABLE 1
+#endif
+
 #include "extEnumPrintable.h"
 
 class eTest
